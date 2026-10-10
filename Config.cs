@@ -31,7 +31,7 @@ public static readonly string TelegramToken =
     };
 
     // ⬇⬇⬇ РАСПИСАНИЕ ИЗ CSV ⬇⬇⬇
-    public const string ScheduleCsvPath = @"C:\Users\Huawei\ImpulseBot\schedule.csv";
+   public const string ScheduleCsvPath = "schedule.csv";
 
     public static Dictionary<string, Dictionary<string, Dictionary<string, ScheduleEntry>>> Schedule { get; private set; }
         = new();
